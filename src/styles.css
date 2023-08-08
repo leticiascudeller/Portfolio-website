@@ -3,6 +3,7 @@
 --secondary-color: #8c52ff;
 --third-color: #c8ffb4;
 --box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+--font-family-1: "Poppins", sans-serif;
 
 }
 h1{
@@ -14,7 +15,7 @@ font-weight: bolder;
 h2{
 font-family: "Poppins", sans-serif;
 font-size: 25px;
-font-weight: 500;
+font-weight: bold;
 
 }
 p{
@@ -71,4 +72,40 @@ opacity: 0.6;
 .profile:hover{
  transform: scale(1.1);
 
+}
+.skills{
+  background-color:var(--third-color);
+  color: #8c52ff;
+  text-align: center
+}
+.skills p{
+   color: black;
+  font-family:var(--font-family-1);
+  font-weight: bold;
+  
+}
+
+.bootstrap-img{
+  margin-top: 6px;
+}
+.github-img{
+   position: relative;
+   bottom: 50px;
+   left: 0px;
+}
+.vscode-img{
+   position: relative;
+   bottom: 30px;
+   right: 15px;
+}
+
+.hosting-img{
+   position: relative;
+   bottom: 50px;
+   right: 5px;
+}
+.api-img{
+   position: relative;
+   bottom: 60px;
+   right: 5px;
 }
