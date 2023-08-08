@@ -84,7 +84,6 @@ opacity: 0.6;
   font-weight: bold;
   
 }
-
 .bootstrap-img{
   margin-top: 6px;
 }
@@ -109,3 +108,15 @@ opacity: 0.6;
    bottom: 60px;
    right: 5px;
 }
+.project-description a{
+   border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    transition: all 100ms ease-in-out;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+}
+
+
