@@ -76,13 +76,47 @@ opacity: 0.6;
 .skills{
   background-color:var(--third-color);
   color: #8c52ff;
-  text-align: center
+  text-align: center;
+  padding: 30px 10px;
+
+}
+.skills h3{
+    font-family:var(--font-family-1);
+    font-size: 30px;
+   font-weight: bold;
+   line-height: 10px;
 }
 .skills p{
    color: black;
   font-family:var(--font-family-1);
-  font-weight: bold;
-  
+  font-weight: bold;  
+}
+.projects{
+  background-color: var(--primary-color);
+}
+.projects h1{
+   font-family:var(--font-family-1);
+   font-size: 30px;
+   
+   margin-bottom: 20px;
+   text-align: center;
+}
+.projects h2{
+font-family: "Playfair Display" , serif;
+font-size: 30px;
+margin: 20px;
+}
+.project-description p{
+  color: black;
+  margin: 10px 0px 25px 0px ;
+}
+.project-description a{
+   cursor: pointer;
+}
+.project-description a:hover{
+ background-color: var(--primary-color);
+ color: black;
+ border: 1px solid #8c52ff;
 }
 .bootstrap-img{
   margin-top: 6px;
