@@ -197,13 +197,17 @@ margin: 20px;
      font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
       position: relative;
       top: -60px;
-      left: -40px;
+      left: -50px;
+      
    }
    .tittle h1{
       font-size: 20px;
    }
    .actions{
       flex-direction: column;
+   }
+   .actions a{
+      margin: 5px 0 ;
    }
    .profile img{
       max-width: 100%;
