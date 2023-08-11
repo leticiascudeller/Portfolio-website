@@ -28,17 +28,19 @@ p{
 }
 
 .banner{
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
  background-color: var(--primary-color);
- height: 450px;
+ height: 650px;
 }
 
 .title{
  text-align: center;
- margin-top: 80px;
- margin-bottom: 30px;
 }
 .actions{
  text-align: center;
+ display: flex;
 }
 .actions a {
  border-radius: 4px;
@@ -51,7 +53,6 @@ p{
  padding: 10px 15px;
 
 }
-
 .contact-link{
 background-color: var(--secondary-color);
 color: var(--third-color);
@@ -70,9 +71,8 @@ transition: 0.3s ease-out;
 opacity: 0.6; 
 }
 .profile{
-   position: relative;
-   bottom: 120px;
-   transition: 100ms ease-out;
+ width: 300px;
+  
 }
 .profile:hover{
  transform: scale(1.05);
@@ -187,18 +187,39 @@ margin: 20px;
    background-color: var(--primary-color);
    border: 2px solid #c8ffb4;
 }
-@media (max-width: 576px) {
- .profile img{
-    position: absolute;
-    top: 70px;
- }
- .contact-link{
-   position: relative; 
-   left: -40px;
- }
- .cv-link{
-    position: relative;
-    bottom: 25px;
-    left: 100px;
- }
+@media (max-width:480px ){
+   .banner{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+   .intro{
+     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+      position: relative;
+      top: -60px;
+      left: -30px;
+   }
+   .tittle h1{
+      font-size: 20px;
+   }
+   .actions{
+      flex-direction: column;
+   }
+   .profile img{
+      max-width: 100%;
+      height: auto;
+      max-width: 150px;
+   
+   }
+
+  
 }
+@media(max-width:607px){
+   .profile img{
+      margin:40px ;
+      width: 200px;
+   }
+}
+
+
+
