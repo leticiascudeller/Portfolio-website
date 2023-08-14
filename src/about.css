@@ -1,0 +1,121 @@
+:root{
+--primary-color:#e0d1fffa;
+--secondary-color: #8c52ff;
+--third-color: #c8ffb4;
+--box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+--font-family-1: "Poppins", sans-serif;
+}
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+}
+h2{
+    color: var(--secondary-color);
+    font-family: var(--font-family-1);
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+
+}
+h1{
+   font-family: 'Bricolage Grotesque', sans-serif;
+   font-weight:500px;
+   text-align: center;
+}
+p{
+    font-family: var(--font-family-1);
+    text-align: center;
+    
+}
+a{
+   text-align: center; 
+}
+img{
+    border-radius: 5px;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 0;
+   margin: 0;
+  
+}
+
+nav ul{
+   padding: 0;
+   margin: 0;
+
+
+}
+nav li{
+   display: inline;
+   line-height: 50px;
+   list-style: none;
+}
+
+nav a {
+   margin-left:40px;
+   color: black;
+   text-decoration: none;
+   transition: all 100ms ease-in-out ;
+}
+nav a:hover{
+   color: var(--secondary-color);
+}
+
+.logo{
+   max-width: 50px;
+}
+.active{
+   color: var(--secondary-color);
+}
+.container{
+    margin-top: 40px ;
+}
+.footer{
+    text-align: center;
+    background-color: var(--secondary-color);
+    margin: 0 -500% ;
+    padding: 0 500% ;
+    
+    
+}
+.work-link{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--third-color);
+color: var(--secondary-color);
+ border-radius: 4px;
+ box-shadow: var(--box-shadow);
+ font-family: "Poppins", sans-serif;
+ margin: 10px 80px;
+  text-decoration: none;
+
+ text-transform: capitalize;
+ padding: 5px 10px;
+}
+
+.email-link{
+    color: var(--third-color);
+    font-family: 'Bricolage Grotesque', sans-serif; 
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom:10px;
+   
+}
+.socials a{
+    background-color: var(--third-color);
+    border-radius: 30px;
+    box-shadow: var(--box-shadow);
+    margin: 0 10px;
+    padding: 10px 10px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+.socials a:hover{
+   background-color: var(--primary-color);
+   border: 2px solid #c8ffb4;
+}
+
