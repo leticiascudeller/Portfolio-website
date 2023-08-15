@@ -68,7 +68,9 @@ p{
  justify-content: space-evenly;
  align-items: center;
  background-color: var(--primary-color);
- height: 650px;
+ height: 600px;
+padding: 0px;
+margin-left: 20px;
 }
 
 .title{
