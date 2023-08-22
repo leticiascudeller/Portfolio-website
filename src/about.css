@@ -118,4 +118,8 @@ color: var(--secondary-color);
    background-color: var(--primary-color);
    border: 2px solid #c8ffb4;
 }
+.footer-p{
+   font-size: 10px;
+   margin-top: 20px;
+}
 
